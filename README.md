@@ -42,7 +42,11 @@ Documents (yelp reviews) were tokenized using TFIDF and 1-grams, which gave the 
 | **LDA** | Topics had lots of overlap in meaning among each other, which would be the result of relatively short document size. |
 | **NMF** | Gave most interpretable results and separable topics. Rest of the analysis was done using NMF. |
 
-There were 1 set of topics for positive reviews and 1 set of topics for negative reviews. The elbow plot below shows the relative strengths of the topics and that 6 topics were chosen for the analysis.
+There were 1 set of topics for positive reviews and 1 set of topics for negative reviews to see if different topics would show up in these spaces. 
+
+![](img_tokenization_flowchart.png)
+
+The elbow plot below shows the relative strengths of the topics and that 6 topics were chosen for the analysis.
 
 ![](img_elbow_plot.png)
 
